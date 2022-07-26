@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Encabezado */
+
+header{
+    width: 100%;
+    height: 250px;
+    background-image: url(../img/design1_image2.jpg);
+    background-position: 10% 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1{
+    color: rgb(255, 252, 80);
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.699);
+    text-align: center;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+}
+
+/* Barra de navegacion */
+
+nav{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+nav ul{
+    list-style: none;
+    margin-left:0px;
+}
+
+nav ul li{
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+a.active{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li.active{
+    background-color: yellow;
+}
+
+a.nav_link{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a.nav_link:hover{
+    color: yellow;
+}
+
+/* Cuerpo prinicipal */
+
+main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h2{
+    width: 100%;
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.articles{
+    min-width: 500px;
+    max-width: 600px;
+    gap: 10px;
+}
+
+.images{
+    max-width: 500px;
+    margin: 1em;
+}
+
+.indent{
+    text-indent: 20px;
+}
+
+p{
+    padding: 10px 0px;
+    text-align: justify;
+}
+
+.center_text{
+    text-align: center;
+}
+
+dt{
+    font-weight: bold;
+}
+
+dd{
+    text-indent: 20px;
+}
+
+.align_right{
+    text-align: right;
+}
+
+.underline{
+    text-decoration-line: underline;
+}
+
+p.last_p{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+table{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+tr, th ,td{
+    padding: 8px 16px;
+}
+
+th{
+    text-align: left;
+}
+
+ol li{
+    text-indent: 0px;
+    list-style-position: inside;
+}
+
+ul li{
+    text-indent: 0px;
+    list-style-position: inside;
+}
+
+ul{
+    margin-left: 30px;
+    list-style-type: circle;
+}
+
+.space_text{
+    margin: 20px 0px;
+}
+
+h3,h4{
+    margin: 10px 0px;
+}
+
+.center_text{
+    text-align: center;
+}
+
+fieldset{
+    border: 0px;
+}
+
+legend{
+    font-weight: bold;
+}
+
+input[type="text"]{
+    border: 0px;
+    border-bottom: 2px solid;
+}
+
+input[type="submit"]{
+    padding: 5px 10px;
+    font-weight: bold;
+    background-color: black;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+fieldset#uniforms label, fieldset#positions label{
+    display: inline-block;
+    min-width: 25%;
+}
+
+input#address{
+    display: inline-block;
+    width: 67%;
+}
+
+input#city, input#zipCode{
+    width: 33%;
+}
+
+input#parentName{
+    display: inline-block;
+    width: 60%;
+}
+
+#submit{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    margin-top: 10px;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+    font-size: small;
+}
